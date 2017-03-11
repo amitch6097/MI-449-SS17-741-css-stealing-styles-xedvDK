@@ -1,0 +1,74 @@
+body{
+  margin: 0 auto;
+  max-width: 500px;
+}
+nav {
+  margin-top: 200px;
+  text-align: center;
+  font-size: 70px;
+}
+form {
+  text-align: center;
+}
+
+#search_bar {
+  width: 80%;
+  height: 38px;
+  padding: 6px 10px;
+  background-color: #fff;
+  border-radius: 3px;
+  box-shadow: none;
+  vertical-align: bottom;
+  border: 1px solid #d4dada;
+  box-sizing: border-box;
+}
+#search_bar:focus{
+  outline:0;
+  border: 1px solid #07682c;
+}
+
+#submit_button{
+  border: 1px solid #d4dada;
+  box-sizing: border-box;
+  outline: none;
+  white-space: nowrap;
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 14px;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+  background: #fff;
+  border-radius: 4px;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .025em;
+  color: #6772e5;
+  text-decoration: none;
+  transition: all .15s ease;
+}
+#submit_button:hover{
+  transform: translateY(-1px);
+  box-shadow: 0 7px 14px rgba(50,50,93,.1), 0 3px 6px rgba(0,0,0,.08);
+}
+#submit_button:active{
+  background-color: #f6f9fc;
+  transform: translateY(1px);
+  box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+}
+
+span.blue {
+  color:#56b6c2;
+}
+span.red {
+  color:#c62d48;
+}
+span.yellow {
+  color:#c6ad00;
+}
+span.purple {
+  color:#b400b9;
+}
+span.green {
+  color:#98c379;
+}
